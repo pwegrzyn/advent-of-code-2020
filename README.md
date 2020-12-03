@@ -2,6 +2,6 @@
 Solutions to AoC 2020 in:
 * Python
 * Go
-* TypeScript
+* TypeScript on Deno
 * Scala
 * Rust

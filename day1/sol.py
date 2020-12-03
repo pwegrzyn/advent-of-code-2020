@@ -2,7 +2,7 @@ INPUT_FILE = "input.txt"
 TARGET = 2020
 
 
-def main1():
+def main1() -> None:
     with open(INPUT_FILE) as f:
         lines = f.readlines()
 
@@ -14,7 +14,7 @@ def main1():
             return
 
 
-def main2():
+def main2() -> None:
     with open(INPUT_FILE) as f:
         lines = f.readlines()
 
