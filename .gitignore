@@ -2,3 +2,5 @@
 target
 .bsp
 project
+*.exe
+*.pdb

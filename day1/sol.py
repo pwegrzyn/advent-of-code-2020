@@ -7,7 +7,7 @@ def main1() -> None:
         lines = f.readlines()
 
     residuals = {int(value): TARGET - int(value) for value in lines}
-    
+
     for val, res in residuals.items():
         if res in residuals:
             print(val * res)
